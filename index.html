@@ -201,11 +201,7 @@
 
             document.getElementById('saat-onlar').src="${hourString[0]}.svg";
             document.getElementById('saat-birler').src="${hourString[1]}.svg";
-            
-            #let saatHTML = `<img src="${String(hour).padStart(2, '0')[0]}.svg" alt="${hour}"><img src="${String(hour).padStart(2, '0')[1]}.svg" alt="${hour}">`;
-            #let dakikaHTML = `<img src="${String(minute).padStart(2, '0')[0]}.svg" alt="${minute}"><img src="${String(minute).padStart(2, '0')[1]}.svg" alt="${minute}">`;
-            #let saniyeHTML = `<img src="${String(second).padStart(2, '0')[0]}.svg" alt="${second}"><img src="${String(second).padStart(2, '0')[1]}.svg" alt="${second}">`;
-            
+                        
             #document.getElementById('saatKutu').innerHTML = saatHTML;
             #document.getElementById('dakikaKutu').innerHTML = dakikaHTML;
             #document.getElementById('saniyeKutu').innerHTML = saniyeHTML;
